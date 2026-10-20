@@ -19,7 +19,7 @@ Both bots are voice-first prompts: short turns (about 25 words), spoken-form num
 - Compliance: no false claim guarantees, no invented discounts or prices, add-ons stated as optional, payment only through an official link, never OTP or card details on the call.
 
 ## Assumptions
-Add-on prices were not provided, so the bot does not quote exact prices. Lender and insurer names and the payment-link and logging tools are placeholders wired in on Sarvam.
+Add-on prices were not provided, so the bot does not quote exact prices. Lender and insurer names are placeholders. No tools are connected, so each bot promises the payment link by SMS and WhatsApp rather than sending it.
 
 ## Testing and what it changed
 I generated an automated test suite on Sarvam for each agent (AI-written tough-customer scenarios with expected behaviours) and used the failures to rewrite the prompts.
