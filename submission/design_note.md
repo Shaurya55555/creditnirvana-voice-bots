@@ -21,5 +21,11 @@ Both bots are voice-first prompts: short turns (about 25 words), spoken-form num
 ## Assumptions
 Add-on prices were not provided, so the bot does not quote exact prices. Lender and insurer names and the payment-link and logging tools are placeholders wired in on Sarvam.
 
-## Testing
-Each recorded call uses a tough-customer persona (Bot 1: shifting excuses, anger, a demand for a lower amount; Bot 2: a cheaper portal quote, an IDV complaint, "I will renew later").
+## Testing and what it changed
+I generated an automated test suite on Sarvam for each agent (AI-written tough-customer scenarios with expected behaviours) and used the failures to rewrite the prompts.
+- Riya, first run: 10 of 25 passed. Core money paths held (full payment, the Rs 4,00,000 floor, job-loss and "already paid" excuses, wrong number, self-harm distress). Failures: multi-step negotiation, a 9 PM call, calming a "police" threat, leaking loan details to a family member, not stopping collection on hospitalisation or bereavement, long replies, and reading digits aloud.
+- Fix: a "hard stops" block that overrides everything (identity before any loan detail, distress ends the pitch, calling hours, explicit "no arrest" reassurance, floor, amounts spoken in words, two short sentences) plus a one-step-per-reply negotiation rule.
+- Aman, first run: 11 of 21 passed. Most failures were the prompt naming payment and logging tools that were not connected, and Engine Protect not pitched for city drivers.
+- Fix: removed the tool references (the bot now promises the link by SMS and WhatsApp only), and made Zero Depreciation plus Engine Protect the default pitch for city, traffic and rain.
+- Voicemail is switched off on the loan bot so a debt message can never be left with a third party.
+Re-run scores after these fixes were not completed before the free credit ran out, so I am not claiming them.

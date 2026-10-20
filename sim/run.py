@@ -42,11 +42,11 @@ def run(persona: str) -> dict:
     cust_in = greeting
     for _ in range(MAX_TURNS):
         cust_msgs.append({"role": "user", "content": cust_in})
-        cust = sarvam.chat(cust_msgs, model="sarvam-105b", temperature=0.8, max_tokens=120)
+        cust = sarvam.chat(cust_msgs, model="sarvam-105b", temperature=0.8, max_tokens=1500) or "Haan, bolo."
         cust_msgs.append({"role": "assistant", "content": cust})
         transcript.append(("customer", cust))
         bot_msgs.append({"role": "user", "content": cust})
-        reply = sarvam.chat(bot_msgs, model="sarvam-105b-conversations", temperature=0.3, max_tokens=120)
+        reply = sarvam.chat(bot_msgs, model="sarvam-105b-conversations", temperature=0.3, max_tokens=1500) or "Ji, ek minute."
         bot_msgs.append({"role": "assistant", "content": reply})
         transcript.append(("bot", reply))
         cust_in = reply

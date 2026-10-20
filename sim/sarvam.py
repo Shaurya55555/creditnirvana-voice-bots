@@ -26,12 +26,16 @@ def _key() -> str:
 
 def _post(path: str, body: dict, retries: int = 4) -> dict:
     for attempt in range(retries):
-        r = requests.post(
-            BASE + path,
-            headers={"api-subscription-key": _key(), "Content-Type": "application/json"},
-            json=body,
-            timeout=90,
-        )
+        try:
+            r = requests.post(
+                BASE + path,
+                headers={"api-subscription-key": _key(), "Content-Type": "application/json"},
+                json=body,
+                timeout=90,
+            )
+        except requests.exceptions.RequestException:
+            time.sleep(2 * (attempt + 1))
+            continue
         if r.status_code == 429 or r.status_code >= 500:
             time.sleep(2 * (attempt + 1))
             continue
@@ -43,13 +47,17 @@ def _post(path: str, body: dict, retries: int = 4) -> dict:
 
 def chat(messages: list[dict], model: str = "sarvam-105b", temperature: float = 0.4,
          max_tokens: int = 400) -> str:
-    out = _post("/v1/chat/completions", {
-        "model": model, "messages": messages,
-        "temperature": temperature, "max_tokens": max_tokens,
-    })
-    text = out["choices"][0]["message"]["content"] or ""
-    text = re.sub(r"<think>.*?</think>", "", text, flags=re.S)  # drop reasoning traces
-    return text.strip()
+    text = ""
+    for budget in (max_tokens, max_tokens * 2, max_tokens * 4):  # reasoning can eat the budget and leave content empty
+        out = _post("/v1/chat/completions", {
+            "model": model, "messages": messages,
+            "temperature": temperature, "max_tokens": budget,
+        })
+        text = out["choices"][0]["message"]["content"] or ""
+        text = re.sub(r"<think>.*?</think>", "", text, flags=re.S).strip()
+        if text:
+            break
+    return text
 
 
 def tts(text: str, speaker: str, lang: str = "hi-IN", model: str = "bulbul:v3",

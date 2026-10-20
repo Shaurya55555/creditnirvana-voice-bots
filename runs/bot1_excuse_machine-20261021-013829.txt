@@ -1,0 +1,45 @@
+BOT: Namaste, kya main Rahul Mehta ji se baat kar rahi hoon? Main Riya, Capital Trust Finance ke recovery desk se. Yeh call recorded hai.
+CUSTOMER: Haan... main bol raha hoon. Bataiye kya baat hai?
+BOT: Rahul ji, aapka paanch lakh ka personal loan aath mahine se pending hai. Total due chheh lakh pachas hazaar hai. Main isko aaj hi close karne ke liye call kar rahi hoon. Aap exactly kab pay karenge?
+CUSTOMER: Haan madam, meri job gayi hai abhi. Do lakh mein settlement ho sakta hai kya close karne ke liye?
+BOT: Samajh gayi. Lekin aath mahine se payment nahi aaya, isse problem solve nahi hogi. Yeh pichli teen calls mein teesra reason hai. Koi bhi reason dues kam nahi karta. Aaj aap kya arrange kar sakte hain, aur tees tarikh tak kya ho sakta hai?
+CUSTOMER: Dekho, main job dhund hi raha hoon. Bas abhi teen lakh hi ho payega ek saath. Purana amount pe mana kar raha hoon, koi aur option nahi meri duty mein.
+BOT: Dekhiye, ek hafte ka delay main samajh sakti hoon, lekin aath mahine nahi. Company chaar lakh mein one-time settlement offer kar rahi hai. Isse aapke dhai lakh bach jayenge. Lekin yeh sirf agle saat din mein payment date fix karne par hi valid hai. Chaar lakh final hai, main timing mein help kar sakti hoon. Kya aap chaar lakh de sakte hain?
+CUSTOMER: Haan, bolo.
+BOT: Theek hai. Toh chaar lakh rupees. Mujhe ek firm date chahiye. Aap kab tak clear kar denge? Is hafte ke andar koi date bataiye.
+CUSTOMER: Arre madam, client ne abhi tak payment nahi kiya hai. Pehle aap WhatsApp pe details aur challan bhej do, fir dekh ke batata hoon.
+BOT: Main call ke baad details bhej deti hoon. Lekin offer ke liye aaj hi date chahiye. Main kya date daaloon?
+CUSTOMER: Dekho, bina details dekhe nahi bata sakta. WhatsApp pe bhejo, fir main check karunga. Aaj commit nahi kar sakta.
+BOT: Main samajh rahi hoon. Lekin offer sirf aaj fix hone par hi valid hai. Saat din ka window hai. Agar aaj date nahi mili, toh account next recovery stage mein chala jayega aur yeh offer guarantee nahi rahega. Aap kaun si date de sakte hain?
+CUSTOMER: Haan, bolo.
+BOT: Rahul ji, line clear hai? Main pooch rahi hoon, aap kaun si date de sakte hain? Tees tarikh? Ya is hafte koi aur din?
+CUSTOMER: Dekho madam, pehle WhatsApp pe challan aur details bhejo. Client ke paas se thoda paisa aane wala hai, uske baad dekhenge. Aaj fix nahi kar sakta.
+BOT: Aapne pehle bhi yahi kaha tha. Next week aata hai aur dues abhi bhi chheh lakh pachas hazaar hain. Mujhe ek date aur ek amount chahiye, abhi. Kya aap chaar lakh tees tarikh tak de sakte hain? Haan ya na?
+CUSTOMER: Haan, bolo.
+BOT: Rahul ji, meri awaaz aa rahi hai? Mujhe clear jawab chahiye. Tees tarikh tak chaar lakh de denge, haan ya na?
+CUSTOMER: Arre suno na! Main kaam kar raha hoon wahan. Apna dimaag theek hai kya? Ek minute ke liye bhi peace nahi deta, bas wahi ra ra ra! Kya faida aise threats dene ka?
+BOT: Main samajh rahi hoon aap pareshan hain. Lekin mujhe aaj ek date chahiye. Kya realistic hai? Chaar lakh tees tarikh tak ho payega? Haan ya na?
+CUSTOMER: Haan, theek hai, tees tarikh tak chaar lakh de doonga. Account overdues wale do lakh fifty hazaar ka kya hoga, woh bhi half-half kar do.
+BOT: Woh dhai lakh ka saving settlement mein already included hai. Total chaar lakh hi dena hai, aur account poori tarah closed ho jayega. Toh confirm kar rahi hoon, tees tarikh tak chaar lakh rupees. Main abhi payment link bhej rahi hoon. Confirm?
+CUSTOMER: Haan, bolo.
+BOT: Ji, ek minute.
+CUSTOMER: Haan, main wait kar raha hoon.
+BOT: Ji, ek minute.
+CUSTOMER: Kya hua? Line kuch dikkat hai kya?
+BOT: Line theek hai. Main payment link chaar lakh ke liye bhej rahi hoon. Link milne ke baad confirm kar dijiye. Theek hai?
+CUSTOMER: Theek hai, bhej do. Lekin clause mein saaf-saaf likh dena ki full and final settlement hai. Aur yeh bhi ki aage se koi recovery wala call nahi aayega.
+BOT: Ji, ek minute.
+CUSTOMER: Haan, line pe hoon main. Bhej diya?
+BOT: Ji, ek minute.
+CUSTOMER: Ek minute ka matlab kya hota hai? Main samey yahan hoon. Jaldi bhejo na.
+BOT: Ji, ek minute.
+CUSTOMER: Are madam, yeh toh kya lag raha hai aapko? Jawab nahi de rahi ho message mein. WhatsApp pe link aaya hai kya?
+BOT: Ji, link bhej diya hai. SMS aur WhatsApp dono par aa gaya hoga. Aap chaar lakh, tees tarikh, link se payment confirm kar dijiye. Theek hai?
+CUSTOMER: Dekho maine kaha tha na ek practical breakup do do lakh? Lekin accounts team se poocha, woh nahi maan rahe the. Ab jo final clause hai usmein bhi clear likha hai ki aage koi call nahi aayega, theek hai na?
+BOT: Settlement letter last payment ke baad issue hoga. Usmein clear likha hoga ki account closed hai. Main confirm kar rahi hoon, chaar lakh, tees tarikh, link se. Confirm?
+CUSTOMER: Theek hai, chat karke hi settle kiya hai na. Main gantavya verify karunga, fir. Pehle account permanently mark kardo, ya baar-baar call aayenge.
+BOT: Account permanently closed tabhi hoga jab tees tarikh tak payment aa jaye. Agar payment nahi aaya, toh mujhe follow up karna padega. Main confirmation SMS bhej rahi hoon. Payment ke baad settlement letter aa jayega. Theek hai?
+CUSTOMER: Haan, toh accha hai. Main abhi do lakh bhej raha hoon turant, baaki do lakh tees tarikh ko. Theek hai?
+BOT: Theek hai. Pehle do lakh abhi, aur baaki do lakh tees tarikh tak. Total chaar lakh. Main log kar leti hoon. Payment ke baad confirmation SMS aa jayega. Agar tees tarikh tak payment nahi aaya, toh main check karungi. Theek hai?
+CUSTOMER: Haan, theek hai. Lekin chaar call mat lagana mujhe. WhatsApp pe hi jaankari dena aur bolna ki client ka aadha paisa aa gaya hai. Bas yahi. Ab main payment kar deta hoon, bye.
+BOT: Ji, ek minute.

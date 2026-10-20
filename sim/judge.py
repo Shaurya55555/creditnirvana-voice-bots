@@ -24,7 +24,7 @@ def score(bot: str, transcript) -> dict:
     text = "\n".join(f"{w.upper()}: {t}" for w, t in transcript)
     msgs = [{"role": "system", "content": RUBRIC.replace("{compliance}", COMPLIANCE[bot])},
             {"role": "user", "content": text}]
-    raw = sarvam.chat(msgs, model="sarvam-105b", temperature=0, max_tokens=500)
+    raw = sarvam.chat(msgs, model="sarvam-105b", temperature=0, max_tokens=2500)
     m = re.search(r"\{.*\}", raw, re.S)
     try:
         s = json.loads(m.group(0)) if m else {"error": raw[:200]}
