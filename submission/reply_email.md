@@ -20,7 +20,7 @@ How I approached it, briefly:
 Bot 1 holds the Rs 4,00,000 settlement as a fixed floor and negotiates only on timing and structure (lump sum, two parts, or a token payment today). It names repeated excuses directly, states credit-score and legal consequences once as facts, and never ends a call without a date and an amount. It stays inside RBI recovery norms: no threats, no third-party disclosure, calling hours respected, a grievance route when the customer disputes.
 Bot 2 explains the Rs 9,00,000 to Rs 8,00,000 IDV change before the customer asks, uses it to position Return to Invoice and Zero Depreciation, answers portal price comparisons with a like-for-like check instead of a counter-attack, and falls back from three add-ons to one to the base Rs 15,000 renewal, always ending on a payment-link time.
 
-I also built a small test harness that runs tough customer personas against each prompt and scores them on your four criteria: <REPO LINK, only if pushed>
+I also built a small test harness that runs tough customer personas against each prompt and scores them on your four criteria: https://github.com/Shaurya55555/creditnirvana-voice-bots
 
 GitHub: https://github.com/Shaurya55555
 Portfolio: https://shaurya-bajpai.vercel.app
