@@ -54,7 +54,8 @@ def main() -> None:
     b1 = (ROOT / "prompts" / "bot1_loan_settlement.md").read_text(encoding="utf-8")
     b2 = (ROOT / "prompts" / "bot2_car_insurance.md").read_text(encoding="utf-8")
     print(to_pdf(page(cover + md(b1) + "<div class='pb'></div>" + md(b2)), "Shaurya_Bajpai_System_Prompts"))
-    print(to_pdf(page(md(NOTE.read_text(encoding="utf-8"))), "Shaurya_Bajpai_Design_Note"))
+    compact = "<style>@page{margin:12mm 14mm} body{font-size:9.4pt;line-height:1.28} h2{margin:8pt 0 2pt}</style>"
+    print(to_pdf(page(compact + md(NOTE.read_text(encoding="utf-8"))), "Shaurya_Bajpai_Design_Note"))
 
 
 if __name__ == "__main__":
